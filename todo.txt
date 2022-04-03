@@ -1,5 +1,0 @@
-.splashtext Make PRODUCTIONS like the old header.
-Snippet: Column Flex
-TBS Website Template
-
-:nth-child(last)
