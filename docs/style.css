@@ -1,0 +1,114 @@
+* {
+  background: rgb(0 0 0 / 0.1);
+}
+
+:root {
+  --offgrey: #666666;
+  --offwhite: #fafafa;
+  --accent: #dddddd;
+  --turf: #74be3ec4;
+  --brightgreen: #83DC45;
+  --frost: #ffffff71;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  border: none;
+  border-radius: .5rem;
+  padding: .5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.title-button {
+  background: var(--brightgreen);
+}
+
+.secbg {
+  padding: 1rem 2rem;
+}
+
+section,
+footer,
+main {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+#herotitle {
+  color: #fff;
+  font-size: clamp(1rem, 4vw, 3rem);
+}
+
+#herosub {
+  color: #fff;
+  font-size: clamp(1rem, 3vw, 2rem);
+}
+
+#site-icon {
+  max-height: 100%;
+}
+
+#listenlinks {
+  display: grid;
+  gap: 8rem;
+  grid-template-columns: repeat(1, 1fr);
+  /* grid-template-columns: repeat(4, 1fr); */
+}
+
+#hostsbg,
+#footerbg {
+  background-color: var(--accent);
+}
+
+#mainbg {
+  position: sticky;
+  background: linear-gradient(var(--turf), var(--turf)),
+    url("./media/logo_bw.jpg");
+  background-size: cover;
+  padding: 2rem 2rem;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#main {
+  display: grid;
+  gap: 1rem;
+  /* grid-template-columns: 2fr 4fr 2fr; */
+}
+
+#herotitle {
+  margin-top: 0;
+}
+
+#hosts {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 2fr 1fr;
+}
+
+.img-contain {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+#links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer {
+  text-align: center;
+}
